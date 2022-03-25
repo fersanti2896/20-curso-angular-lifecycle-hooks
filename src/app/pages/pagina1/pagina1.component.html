@@ -1,1 +1,11 @@
-<p>pagina1 works!</p>
+<p>{{ nombre }}!</p>
+
+<input  type="text"
+        placeholder="Hola Mundo"
+        class="form-control mb-3"
+        [(ngModel)]="nombre">
+
+<button class="btn btn-outline-primary"
+        (click)="guardar()">
+    Click
+</button>
